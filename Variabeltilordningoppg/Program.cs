@@ -24,6 +24,11 @@
             return "Hello, World!";
         }
 
+        public string ReturnString2()
+        {
+            return "Denne metoden returnerer ingenting";
+        }
+
         public int ReturnWholeNumber()
         {
             return 5;
@@ -52,6 +57,7 @@
             Console.WriteLine($"Dette er en string:{ReturnDouble()}");
             Console.WriteLine($"Dette er en string:{trueFalse()}");
             Console.WriteLine($"{DoubleSum()} er summen av {ReturnWholeNumber()} + {ReturnDouble()}");
+            Console.WriteLine($"{ReturnString2()}");
         }
 
         public static void Main(string[] args)
